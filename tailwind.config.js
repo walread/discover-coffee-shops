@@ -8,7 +8,10 @@ module.exports = {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
+      backgroundImage: {
+        'gradient-background': "url('../../public/static/background.png')",
+      },
     },
   },
   plugins: [],
-};
+}
